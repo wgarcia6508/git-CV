@@ -1,0 +1,474 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com ,'impact',sans-serif  #e0eaea
+ */
+ 
+@font-face{
+    font-family: CarterOne;
+    src:url(../fonts/CarterOne.ttf);
+   
+    
+}
+ 
+@font-face{
+
+     font-family: oswald;
+   src:url(../fonts/Oswald-Regular.ttf);
+}
+ 
+body{background-color: #e3e1df;}
+body::-webkit-scrollbar{
+    
+    width: 10px;
+    background-color: #2a2a2a; 
+}
+body::-webkit-scrollbar-thumb{
+    
+    background-color: teal;
+    border-radius: 10px;
+}
+#particles-js{
+    
+    width: 100%;
+    height: 400px;
+    background-color: #00838f;
+    position:absolute;
+  
+   
+}
+
+.teal-text.text-lighten-2 {
+  color: #f50fdb !important;
+    font-size: 3rem;
+        text-shadow: 2px 2px 6px #000;
+}
+.teal.lighten-1 {
+    border-width: 5px;
+  border-color: #ff0000  !important;
+    background: rgba(255, 4, 207, 0.53)  !important;
+    
+}
+h4 {
+   font-family: 'oswald';
+    font-size: 30px;
+    color: #434343;
+}
+h6 {
+   font-family: 'oswald';
+    font-size: 30px;
+    color: #434343;
+    font-weight: 100;
+}
+h7 {
+   font-family: 'oswald';
+    font-size: 20px;
+    color: teal;
+    font-weight: 100;
+}
+setion{ /*    font-family: 'Rancho', cursive;*/
+    padding-top:20px;
+  font-family: 'vijay';
+  
+        color:#263a4e;
+    text-align: center; }
+secion > .fgeneral{
+/*    font-family: 'Rancho', cursive;*/
+    padding-top:20px;
+  font-family: 'vijay';
+  
+        color:#263a4e;
+    text-align: center;
+ 
+    }
+Neg{
+  
+}
+strong.Neg {
+  color: red;
+}
+nav ul a,
+nav .brand-logo,
+nav mobile-demo{
+  color: #ffffff;
+    font-size:120%;
+    font-family: 'Oswald', sans-serif;
+}
+p< #oi{font-size: 30px !important;}
+.op{ font-family: 'Oswald', sans-serif;font-size: 40px;
+    
+
+}
+
+.op2{ font-family: 'Oswald', sans-serif;font-size: 25px;
+    color: #00838f;
+    
+
+}
+p {
+  
+  font-family: 'Roboto', sans-serif;
+  
+        color:#4a4949;
+
+  line-height:20px;
+    font-size: 16px;
+}
+
+col > img .pamela
+{
+width: 50px;
+    height: 50px;
+    
+}
+nav
+
+{
+    -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.87), 0 0px 0px -0px rgba(0, 0, 0, 0.95), 0 0px 0px 0 rgba(255, 0, 0, 0.79);
+          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.92), 0 0px 0px -0px rgb(0, 0, 0), 0 0px 0px 0 rgb(7, 26, 167);
+}
+
+
+nav ul a:hover {
+  background-color: #263238;
+    color:#ebefee;
+    
+}
+.sidenav li > a{
+    color: #434343;
+}
+
+.sidenav li > a:hover{
+    
+    background-color: #263238;
+    color: beige;
+}
+.contact{
+font-size: 20px;
+}
+.input-field > label {
+    color: #f7f9fa;
+font-size: 20px;
+}
+.input-field > i{
+    font-size: 20px;
+}
+.input-field {
+    margin-bottom: 0px;
+}
+.sidenav-trigger {
+  color: #393939;
+}
+
+.parallax-container {
+min-height: 380px;
+    
+  line-height: 0;
+  height:auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container2 {
+min-height: 380px;
+    
+  line-height: 0;
+  height:auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 0%;
+  }
+    p {
+  
+  font-family: 'roboto';
+  
+        color:#5d5d5d;
+   
+  line-height:20px;
+    font-size: 16px
+}
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+ /* label color */
+   .input-field label {
+     color: #00838f;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #698db1;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid teal;
+     box-shadow: 0 1px 0 0 #0fadd3;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid teal;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #454545;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #1a8ca7;
+   }
+.footer1{
+    color: #ffffff;
+    background-color: #212529;
+}
+
+.foter {
+    margin: 0;
+    padding: 15px;
+   
+}
+
+.lovi {
+    text-align: right;
+}
+
+
+
+.po2 {
+    font-size:25px; 
+}
+
+.pi {
+    font-size: 28px;
+}
+
+blockquote {
+  margin: 25px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid #505050;
+}
+
+H5 > .ITALY  {
+    font-size: 29px;
+  font-style: italic;
+    color: RED;
+}
+
+span<.precio {
+    font-size: 35px;
+    color: white;
+    
+}
+
+.collection .collection-item .title2 {
+  font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+   
+}
+.collection .collection-item .title1 {
+  font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+   
+}
+
+.collection .collection-item .title3 {
+  font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+   
+}
+collection .collection-item2 {
+  background-color: #fff;
+  line-height: 1.5rem;
+  padding: 30px 70px;
+  margin: 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.sectc{
+    
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.row{margin-bottom:20px;}
+.progress{
+    
+    background-color: #263238; 
+}
+.progress .determinate {
+    background-color: darkcyan;
+    
+}
+.slider .slides {
+  background-color: #f8f8f8;
+  margin: 0;
+  height: 300px;
+   
+}
+.slider .slides li .caption {
+  color: #464646;
+ 
+}
+.slider .slides li .caption p{
+  color: #464646;
+    padding-top: 5%;
+ 
+}.slider .slides li .caption h6{
+  color: #464646;
+    padding-top: 10%;
+ 
+}
+}.slider .slides li .caption img{
+  color: #464646;
+    padding-top: 10%;
+ 
+}
+.fijo{
+    
+    position: fixed;
+}
+.modal{
+    
+    border-radius: 10px;
+    border-color: #434242;
+}
+.card.horizontal .card-image {
+    max-width: 27%;
+    
+}
+.card .card-content {
+    
+    padding: 20px;
+}
+stron{
+    font-size: 12px;
+    font-style:oblique;
+    font-weight: bold;}
+
+
+.contenedor-tarjeta{
+    margin: 0px;
+    
+}
+.contenedor-tarjeta:hover figure{
+   border-bottom-color: red;
+
+    border-bottom-width: 10px;
+    -webkit-transform:perspective(600px) rotateY(180deg); 
+        -ms-transform:perspective(600px) rotateY(180deg); 
+         -o-transform:perspective(600px) rotateY(180deg); 
+            transform:perspective(600px) rotateY(180deg); 
+}
+
+figure{
+   
+    margin: 0px;
+    position: relative;
+    transition:all ease .5s;
+    transform-style: preserve-3d;
+    -webkit-transform:perspective(600px) rotateY(0deg); 
+        -ms-transform:perspective(600px) rotateY(0deg); 
+         -o-transform:perspective(600px) rotateY(0deg); 
+            transform:perspective(600px) rotateY(0deg);
+    
+    
+}
+figure .frontal,figure.trasera{
+    
+    
+    height: 90%;
+    
+    transition: all ease .5s;
+   
+  
+}
+figure .frontal {
+    display: block;
+/*   backface-visibility: hidden;*/
+    
+}
+figure .trasera{
+    height: 100%;
+    width: 101.9%;
+    position: absolute;
+    top: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+    transform: perspective(600px) rotateY(180deg);
+    backface-visibility: hidden;
+   
+     -webkit-background:  linear-gradient(to right,rgba(0, 131, 143, 0.72),rgba(28, 70, 67, 0.82));
+    -mo-background: linear-gradient(to right,rgba(0, 131, 143, 0.72),rgba(28, 70, 67, 0.82));
+    background: linear-gradient(to right,rgba(0, 131, 143, 0.90),rgba(28, 70, 67, 0.90));
+    margin: 0px;
+    
+   
+}
+figure .trasera .titul{
+    
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-family: 'roboto',sans-serif;
+    font-size:24px;
+    text-align: center;
+    
+}
+figure .trasera hr{
+    
+   background:  #fff;
+   height: 2px;
+    margin-bottom: 20px;
+    border: none;
+    opacity: .5;
+    
+    
+}
+figure .trasera p{
+    
+    color: #fcfcfc;
+    line-height: 20px;
+   
+    font-family: 'roboto',sans-serif;
+    font-size:14px;
+    
+}
+
+
+
+
+
+.meni {
+    padding-left: 
+}
